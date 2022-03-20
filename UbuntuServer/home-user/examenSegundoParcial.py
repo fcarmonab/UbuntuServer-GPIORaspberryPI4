@@ -13,13 +13,6 @@ v0 = Tk()
 v0.title("EXAMEN SEGUNDO PARCIAL")
 v0.geometry("600x600+0+0")
 
-cmdOn21 = 'sshpass -p "fcarmona" ssh -l "uth" 192.168.0.27 "sudo /./home/uth/on21.sh"'
-cmdOff21 = 'sshpass -p "fcarmona" ssh -l "uth" 192.168.0.27 "sudo /./home/uth/off21.sh"'
-cmdOn22 = 'sshpass -p "fcarmona" ssh -l "uth" 192.168.0.27 "sudo /./home/uth/on22.sh"'
-cmdOff22 = 'sshpass -p "fcarmona" ssh -l "uth" 192.168.0.27 "sudo /./home/uth/off22.sh"'
-cmdOn23 = 'sshpass -p "fcarmona" ssh -l "uth" 192.168.0.27 "sudo /./home/uth/on23.sh"'
-cmdOff23 = 'sshpass -p "fcarmona" ssh -l "uth" 192.168.0.27 "sudo /./home/uth/off23.sh"'
-
 formato = tkFont.Font(family="Helvetica", size=12)
 label = Label(v0, text="Desarrollado en Equipo",font=formato).place(x=165, y=10)
 
